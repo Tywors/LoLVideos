@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:id="@+id/row_myvideos_container">
+
+    <RelativeLayout
+        android:id="@+id/lyt_myvideo_union"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/myvideo_style">
+
+        <RelativeLayout
+            android:id="@+id/indicador_activo"
+            android:layout_width="2dp"
+            android:layout_height="75dp">
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:scaleType="fitXY"
+            android:id="@+id/img_row_myvideos"
+            />
+
+        <ImageView
+            android:id="@+id/play_myvideos_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_play"
+            android:layout_alignTop="@id/img_row_myvideos"
+            android:layout_alignLeft="@id/img_row_myvideos" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txt_myvideos_fecha"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar_myvideos"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:numStars="5"
+            android:stepSize="0.25"
+            style="?android:attr/ratingBarStyleSmall" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txt_myvideos_status"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/txt_myvideos_fecha"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/txt_myvideos_fecha"
+            android:id="@+id/relativeLayout7"
+            android:layout_below="@+id/ratingBar_myvideos"
+            android:layout_toLeftOf="@+id/txt_myvideos_fecha">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/visitas"
+                android:id="@+id/txt_title_myvideos_visitas"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/visitas_unicas"
+                android:id="@+id/txt_title_unique_visitas"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@+id/txt_title_myvideos_visitas"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/faboritos"
+                android:id="@+id/txt_title_yvideos_faboritos"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@+id/txt_title_unique_visitas"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1"
+                android:id="@+id/txt_myvideos_visitas"
+                android:layout_alignBaseline="@+id/txt_title_myvideos_visitas"
+                android:layout_alignBottom="@+id/txt_title_myvideos_visitas"
+                android:layout_alignLeft="@+id/txt_myvideos_unique_visitas"
+                android:layout_alignStart="@+id/txt_myvideos_unique_visitas"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="2"
+                android:id="@+id/txt_myvideos_unique_visitas"
+                android:layout_alignBaseline="@+id/txt_title_unique_visitas"
+                android:layout_alignBottom="@+id/txt_title_unique_visitas"
+                android:layout_toRightOf="@+id/txt_title_unique_visitas"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="3"
+                android:id="@+id/txt_myvideos_faboritos"
+                android:layout_below="@+id/txt_myvideos_unique_visitas"
+                android:layout_alignLeft="@+id/txt_myvideos_unique_visitas"
+                android:layout_alignStart="@+id/txt_myvideos_unique_visitas"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/votos"
+                android:id="@+id/txt_title_myvideos_votos"
+                android:layout_below="@+id/txt_title_yvideos_faboritos"
+                android:layout_alignLeft="@+id/txt_title_yvideos_faboritos"
+                android:layout_alignStart="@+id/txt_title_yvideos_faboritos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="4"
+                android:id="@+id/txt_myvideos_votos"
+                android:layout_below="@+id/txt_myvideos_faboritos"
+                android:layout_alignLeft="@+id/txt_myvideos_faboritos"
+                android:layout_alignStart="@+id/txt_myvideos_faboritos"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt_myvideos_status"
+            android:layout_toRightOf="@+id/relativeLayout7"
+            android:layout_toEndOf="@+id/relativeLayout7"
+            android:padding="12dp">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_myvideos_delete"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:visibility="visible"
+                android:src="@drawable/icon_delete" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/icon_myvideos_share"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/icon_share" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

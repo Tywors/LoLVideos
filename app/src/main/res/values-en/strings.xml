@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoL Videos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="info_favorito_anyadido">Video added to favorites!</string>
+    <string name="info_favorito_existente">This video is already in your favorites</string>
+    <string name="info_favorito_borrado">Video deleted from your favorites</string>
+    <string name="info_favorito_nohay">You have no video added to favorites!</string>
+
+    <string name="vota_el_video">Rate this video!</string>
+    <string name="title_top">Best Rated Videos!</string>
+    <string name="info_share_download_video">Downloading to share...</string>
+    <string name="info_share_upload_video">Publishing video...</string>
+    <string name="info_share_selecciona">Select where to share the video</string>
+    <string name="info_share_share">Share with...</string>
+    <string name="info_share_app">I recommend LoL Videos app! Free in Google Play Store http://play.google.com/store/apps/details?id=com.tywors.lolvideos</string>
+
+    <string name="proximamente">Coming soon</string>
+
+    <string name="info_random_conectado">Showing random video.</string>
+    <string name="info_random_desconectado">Random Offline Mode.</string>
+
+    <string name="info_upload_subir">Select the video you want share</string>
+    <string name="info_upload_finish">The video will be published revised once</string>
+
+    <string name="info_exit">Exit</string>
+    <string name="info_exit_2">Are you sure?</string>
+
+    <string name="info_gracias">Thank you very much, keep improving</string>
+    <string name="info_colabora">Collaborate posting funny videos</string>
+
+
+    <string name="nav_1">My videos</string>
+
+    <!-- registro -->
+    <string name="reg_error_0">Username not available, choose another.</string>
+    <string name="reg_error_1">This email is already registered.</string>
+    <string name="reg_error_2">Error uploading the image, try again later.</string>
+    <string name="reg_error_3">This device is already registered, try a recovery.</string>
+
+    <string name="reg_error_10">Successfully registered, you can now enter their panel.</string>
+
+    <string name="reg_error_4">Write a user of more than 4 characters.</string>
+    <string name="reg_error_5">Please enter a valid email.</string>
+    <string name="reg_error_6">You must select an image.</string>
+
+    <!-- MY videos -->
+    <string name="visitas">Views</string>
+    <string name="visitas_unicas">Unique visitors</string>
+    <string name="faboritos">Favorites</string>
+
+    <string name="activo">Active</string>
+    <string name="alaespera">Waiting for approval</string>
+    <string name="rechazado">Rejected</string>
+
+    <string name="myvideos_visitastotales">Views</string>
+    <string name="myvideos_visitasunicastotales">Unique visitors</string>
+    <string name="myvideos_videostotales">Videos</string>
+
+    <string name="footer_myvideos_listview_1">Remove video rejected</string>
+
+    <string name="cambiar_la_imagen">Choose an image to replace</string>
+
+    <string name="subir_video">Upload a video</string>
+
+    <string name="votar">vote</string>
+    <string name="fail_votar">You must select a star</string>
+
+    <string name="rateme">Rate it!</string>
+    <string name="votos">Votes</string>
+
+    <string name="nav_2">Profit</string>
+    <string name="share_app">Share app</string>
+
+    <string name="info_registrate">Sign in LoL Videos to have your video manager, visits and sharing in an easier way.</string>
+
+    <!-- ganancias -->
+    <string name="lista_pagos">Payment List</string>
+    <string name="visitas_unicas_disp">Unique visits available:</string>
+    <string name="inserte_btc">Enter your Bitcoin address:</string>
+    <string name="bt_pagos">Charge</string>
+    <string name="dialog_pago_minimo">You must have 5000 unique visits to get Bitcoins</string>
+    <string name="dialog_dir_invalida">You must introduce a valid bitcoin address</string>
+    <string name="dialog_btc_error">Error, try again.</string>
+    <string name="dialog_btc_asegurese">Check your bitcoin address before continue</string>
+    <string name="dialog_btc_exito">Success! you will receive your Bitcoin within 24 hours</string>
+    <string name="btc_para_cobrar">Bitcoins to collect:</string>
+    <string name="btc_pago_pendiente">\u231B</string>
+    <string name="btc_pago_realizado">\u2611</string>
+    <string name="btc_pago_error">\u26A0</string>
+    <string name="btc_total_app">Bitcoins paid in full: </string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>

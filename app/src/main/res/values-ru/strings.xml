@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoL Videos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="info_favorito_anyadido">Видео добавлено в избранное!</string>
+    <string name="info_favorito_existente">Этот ролик уже есть в закладки</string>
+    <string name="info_favorito_borrado">Видео удалено из избранных</string>
+    <string name="info_favorito_nohay">Это не имеет видео добавлено в избранное!</string>
+
+    <string name="vota_el_video">Оцените это видео!</string>
+    <string name="title_top">Лучший Rated Видео!</string>
+    <string name="info_share_download_video">Загрузка поделиться...</string>
+    <string name="info_share_upload_video">Издательство видео...</string>
+    <string name="info_share_selecciona">Выберите место для обмена видео</string>
+    <string name="info_share_share">Поделиться с...</string>
+    <string name="info_share_app">Я рекомендую LOL Видео приложение! Бесплатные Google Play Store, http://play.google.com/store/apps/details?id=com.tywors.lolvideos</string>
+
+    <string name="proximamente">Скоро</string>
+    <string name="info_random_conectado">Показаны Случайное видео.</string>
+    <string name="info_random_desconectado">Случайные Автономный режим.</string>
+
+    <string name="info_upload_subir">Выберите видео, которое вы хотите опубликовать</string>
+    <string name="info_upload_finish">Видео будут опубликованы пересматривается раз</string>
+
+    <string name="info_exit">выход</string>
+    <string name="info_exit_2">Ты уверен?</string>
+
+    <string name="info_gracias">Спасибо вам большое, продолжать совершенствовать</string>
+    <string name="info_colabora">Сотрудничать размещения смешные видео</string>
+
+
+    <string name="nav_1">Мои Видео</string>
+
+    <!-- registro -->
+    <string name="reg_error_0">Имя пользователя не доступна, выберите другой.</string>
+    <string name="reg_error_1">Этот адрес уже зарегистрирован.</string>
+    <string name="reg_error_2">Ошибка загрузки изображения, повторите попытку позже.</string>
+    <string name="reg_error_3">Это устройство уже зарегистрированы, попробовать восстановить.</string>
+
+    <string name="reg_error_10">Успешно зарегистрирован, теперь вы можете ввести свои панели.</string>
+
+    <string name="reg_error_4">Написать пользователю более 4 символов.</string>
+    <string name="reg_error_5">Введите действительный адрес электронной почты</string>
+    <string name="reg_error_6">Вы должны выбрать изображение.</string>
+
+    <!-- MY videos -->
+    <string name="visitas">взгляды</string>
+    <string name="visitas_unicas">Уникальные посетители</string>
+    <string name="faboritos">Избранные</string>
+
+    <string name="activo">активный</string>
+    <string name="alaespera">Ожидание подтверждения</string>
+    <string name="rechazado">Отклонено</string>
+
+    <string name="myvideos_visitastotales">взгляды</string>
+    <string name="myvideos_visitasunicastotales">Уникальные</string>
+    <string name="myvideos_videostotales">Видео</string>
+
+    <string name="footer_myvideos_listview_1">Удалить отклонил</string>
+
+    <string name="cambiar_la_imagen">Выберите изображение</string>
+
+    <string name="subir_video">Загрузить видео</string>
+
+    <string name="votar">голос</string>
+    <string name="fail_votar">Вы должны выбрать звезду</string>
+
+    <string name="rateme">Оценить это!</string>
+    <string name="votos">Голосов</string>
+
+    <string name="nav_2">прибыль</string>
+    <string name="share_app">Доля приложение</string>
+
+    <string name="info_registrate">Вход в LoL Видео, чтобы иметь ваш менеджер видео, визиты управления и совместного использования более легким способом.</string>
+
+
+    <!-- ganancias -->
+    <string name="lista_pagos">Список платежей</string>
+    <string name="visitas_unicas_disp">Уникальные посещения доступны:</string>
+    <string name="inserte_btc">Bitcoin адрес:</string>
+    <string name="bt_pagos">взимать</string>
+    <string name="dialog_pago_minimo">как минимум 5000 уникальных посетителей необходимо</string>
+    <string name="dialog_dir_invalida">Ошибка в Bitcoin адрес</string>
+    <string name="dialog_btc_error">Ошибка, попробуйте еще раз.</string>
+    <string name="dialog_btc_asegurese">Убедитесь, что Bitcoin адрес правильно перед отправкой запроса</string>
+    <string name="dialog_btc_exito">Отлично! вы получите Bitcoin в течение 24 часов</string>
+    <string name="btc_para_cobrar">Bitcoins собирать:</string>
+    <string name="btc_pago_pendiente">\u231B</string>
+    <string name="btc_pago_realizado">\u2611</string>
+    <string name="btc_pago_error">\u26A0</string>
+    <string name="btc_total_app">Bitcoins выплаченные в полном объеме: </string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+
+</resources>

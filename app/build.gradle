@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '21.1.2'
+    defaultConfig {
+        applicationId "com.tywors.lolvideos"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 28
+        versionName '3.4'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/httpmime-4.2.3.jar')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.google.android.gms:play-services-ads:8.3.0'
+    compile 'com.android.support:design:22.2.1'
+}

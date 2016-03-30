@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hmkcode.mongoz.MainActivity" >
+
+    <group android:checkableBehavior="all" android:id="@+id/nav_menu_z">
+        <item
+            android:id="@+id/navigation_item_1"
+            android:icon="@drawable/icon_upload"
+            android:title="@string/nav_1"
+            />
+
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@drawable/bitcoin_icon"
+            android:title="@string/nav_2"
+            />
+
+
+
+    </group>
+    <group android:checkableBehavior="all" android:id="@+id/nav_menu_a">
+    <item android:id="@+id/navigation_item_a1"
+        android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+        android:title="@string/rateme"
+        />
+
+        <item android:id="@+id/navigation_item_a2"
+            android:icon="@drawable/icon_share"
+            android:title="@string/share_app"
+            />
+</group>
+
+</menu>

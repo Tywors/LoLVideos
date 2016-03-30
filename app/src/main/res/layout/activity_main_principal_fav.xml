@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".Main_Principal"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lyt_header">
+
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/relativeLayout4"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_show_faborites"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/estrella2" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_random"
+            android:padding="5dp"
+            android:src="@drawable/icon_random_1"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/relativeLayout4"
+            android:layout_toStartOf="@+id/relativeLayout4"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/listview_main"
+        android:layout_below="@+id/lyt_header"
+        android:layout_centerHorizontal="true"
+        android:cacheColorHint="#FFFFFF"
+        android:background="#FFFFFF"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:scrollbars="none"
+        android:listSelector="#00000000"
+        android:scrollingCache="false"
+        android:animationCache="false"
+        android:clickable="false"
+        android:visibility="visible"
+        android:layout_above="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/estrella_fav"
+        android:layout_marginBottom="3dp"/>
+
+
+</RelativeLayout>

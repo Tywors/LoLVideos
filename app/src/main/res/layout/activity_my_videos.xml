@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:weightSum="6">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/img_myvideos_profile"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/img_edit_avatar"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/icon_edit" />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp">
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar_myvideos_profile"
+                android:numStars="5"
+                android:stepSize="0.25"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_below="@+id/txt_myvideos_nick"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/myvideos_videostotales"
+                android:id="@+id/title_myvideos_videostotales"
+                android:layout_below="@+id/ratingBar_myvideos_profile"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/myvideos_visitastotales"
+                android:id="@+id/title_myvideos_totalvisitas"
+                android:layout_below="@+id/title_myvideos_videostotales"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/myvideos_visitasunicastotales"
+                android:id="@+id/title_myvideos_totaluniquevisitas"
+                android:layout_below="@+id/title_myvideos_totalvisitas"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/txt_myvideos_nick"
+                android:text="cc"
+                android:textColor="#000000"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="-"
+                android:id="@+id/txt_myvideos_visitasunicas"
+                android:layout_alignBottom="@+id/title_myvideos_totaluniquevisitas"
+                android:layout_toRightOf="@+id/title_myvideos_totaluniquevisitas"
+                android:layout_toEndOf="@+id/title_myvideos_totaluniquevisitas"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="-"
+                android:id="@+id/txt_myvideos_totalvisitas"
+                android:layout_above="@+id/txt_myvideos_visitasunicas"
+                android:layout_alignLeft="@+id/txt_myvideos_visitasunicas"
+                android:layout_alignStart="@+id/txt_myvideos_visitasunicas" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="-"
+                android:id="@+id/txt_myvideos_totalvideos"
+                android:layout_alignBottom="@+id/title_myvideos_videostotales"
+                android:layout_alignLeft="@+id/txt_myvideos_totalvisitas"
+                android:layout_alignStart="@+id/txt_myvideos_totalvisitas" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subir_video"
+                android:id="@+id/bt_myvideos_upload"
+                android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/thumbnail_style"
+                android:layout_alignBottom="@+id/txt_myvideos_visitasunicas"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_gravity="center_horizontal">
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView_myvideos"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="5dp"
+            android:layout_marginTop="0dp"
+            android:listSelector="@android:color/transparent"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>
